@@ -1,0 +1,22 @@
+tr th, tr td{
+    width: auto;
+    text-align: left;
+    padding: 7px ;
+}
+
+table tr:first-of-type{
+    color: #ffff;
+    background-color: #313131;
+}
+
+tr:nth-child(odd){
+    background-color: #fafafa;
+}
+
+tr:hover{
+    background-color: #f1f1f1;
+}
+
+table{
+    border-collapse: collapse;
+}
